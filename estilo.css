@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+
+body {
+    align-items: center;
+    color: #000;
+    line-height: 30px;
+    text-align: center;
+}
+
+h1, span{
+    color: #d59600;
+    font-weight: bold;
+}
+
+h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+
+header a {
+    margin-bottom: 5px;
+    color: #d59600;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    border-bottom: 2px solid #d59600;
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: 400;
+    padding: 30px;
+}
+
+h3 {
+    padding-top: 120px;
+    padding-bottom: 15px;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.sobre h3 {
+    padding-top: 0;
+    padding-bottom: 15px;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+header {
+    background-color: #000;
+    width: 100%;
+    height: 18%;
+    border-bottom: 1px solid #d5960054;
+    position: fixed;
+}
+
+.banner img {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.sobre img, .consultores img {
+    width: 450px;
+}
+
+p {
+    margin: 10px auto;
+    text-align: justify;
+    width: 980px;
+    font-size: 18px;
+}
+
+a {
+    color: #d59600;
+    font-weight: bold;
+}
+
+.rodape p {
+    text-align: center;
+    color: #fff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
